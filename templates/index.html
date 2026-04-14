@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake Job Detector</title>
+</head>
+<body style="font-family: Arial; text-align:center; padding:50px;">
+
+    <h1>🚀 Fake Job Detection</h1>
+
+    <form action="/predict" method="post">
+        <textarea name="job_text" rows="10" cols="60" placeholder="Paste job description here..."></textarea><br><br>
+        <button type="submit">Analyze Job</button>
+    </form>
+
+    <h2>{{ prediction_text }}</h2>
+
+</body>
+</html>
